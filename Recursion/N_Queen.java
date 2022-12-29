@@ -44,7 +44,7 @@ public class N_Queen {
         }
 
         // diagonal right
-        int maxRight = Math.min(row, board.length - col - 1);
+         int maxRight = Math.min(row, board.length - col - 1);
         for (int i = 1; i <= maxRight; i++) {
             if(board[row-i][col+i]) {
                 return false;
