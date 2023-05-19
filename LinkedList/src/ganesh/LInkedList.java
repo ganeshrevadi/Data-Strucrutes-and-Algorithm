@@ -1,3 +1,5 @@
+package ganesh;
+
 public class LInkedList {
 
     private Node head;
@@ -26,6 +28,29 @@ public class LInkedList {
             System.out.print(temp.value + " -> ");
             temp = temp.next;
         }
+        System.out.print("End");
+    }
+
+    public void insertEnd(int val){
+        Node node = new Node(val);
+        node.value = val;
+        node.next = null;
+        tail.next = node;
+        tail = node;
+
+        if(head == null){
+            head = node;
+        }
+    }
+    public void insertMiddle(int val , int pos){
+        Node node = new Node(val);
+        Node ptr = head;
+        for (int i = 1; i <= pos; i++) {
+            ptr = ptr.next;
+        }
+        node.next = ptr.next;
+        ptr.next = node;
+
     }
     private class Node{
         private int value;
