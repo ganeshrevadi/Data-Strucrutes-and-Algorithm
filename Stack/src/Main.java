@@ -12,6 +12,8 @@ public class Main {
         System.out.println(stack.pop());
         System.out.println(stack.pop());
 
+        Stack<Character> stack2 = new Stack<>();
+
         //System.out.println(stack.pop());
     }
 }
