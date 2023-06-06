@@ -7,6 +7,7 @@ public class Main {
         stack.push(34);
         stack.push(35);
         stack.push(36);
+        stack.push(37);
 
         System.out.println(stack.pop());
         System.out.println(stack.pop());
