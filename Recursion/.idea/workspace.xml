@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/Pow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N_Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/N_Queen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoofSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/NoofSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoofZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/NoofZeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReverseNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/ReverseNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/SpiralMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SumOfDIgits.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/SumOfDIgits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magicnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/magicnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pratice.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/pratice.java" afterDir="false" />
+    <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa">
+      <change beforePath="$PROJECT_DIR$/code/src/ReverseNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/ReverseNum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +38,16 @@
     "last_opened_file_path": "C:/Users/rebrunda/IdeaProjects/Data-Strucrutes-and-Algorithm/Recursion"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SpiralMatrix">
     <configuration name="Pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pow" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpiralMatrix" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,6 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpiralMatrix" />
         <item itemvalue="Application.Pow" />
       </list>
     </recent_temporary>
@@ -85,7 +82,30 @@
       <option name="presentableId" value="Default" />
       <updated>1686144450668</updated>
     </task>
+    <task id="LOCAL-00001" summary="Dsa">
+      <created>1686228807308</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686228807308</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dsa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dsa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -93,7 +113,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/code/src/Pow.java</url>
           <line>3</line>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
