@@ -6,7 +6,7 @@ public class ReverseNum {
 
     }
     static int sum=0;
-    static int  Rev(int n){
+    static int Rev(int n){
         if(n==0){
             return 0;
         }
