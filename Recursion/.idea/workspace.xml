@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa">
       <change afterPath="$PROJECT_DIR$/code/src/count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/validPal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/ReverseNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/ReverseNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/SpiralMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/validPal.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/validPal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,15 +137,6 @@
           <url>file://$PROJECT_DIR$/code/src/Pow.java</url>
           <line>3</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/code/src/validPal.java</url>
-          <line>1</line>
-          <properties class="validPal" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

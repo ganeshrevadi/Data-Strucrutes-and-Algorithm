@@ -1,6 +1,6 @@
 public class validPal {
     public static void main(String[] args) {
-        boolean ans = isPal("gadag");
+        boolean ans = isPal("A man, a plan, a canal: Panama");
         System.out.println(ans);
     }
 
