@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa">
-      <change afterPath="$PROJECT_DIR$/code/src/count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/findAllindexRec.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/ReverseNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/ReverseNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/SpiralMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/validPal.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/validPal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +34,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "C:/Users/rebrunda/IdeaProjects/Data-Strucrutes-and-Algorithm/Recursion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rebrunda/IdeaProjects/Data-Strucrutes-and-Algorithm/Recursion&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.validPal">
+}</component>
+  <component name="RunManager" selected="Application.findAllindexRec">
     <configuration name="Pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pow" />
       <module name="code" />
@@ -62,6 +59,13 @@
     </configuration>
     <configuration name="count" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="count" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="findAllindexRec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="findAllindexRec" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.findAllindexRec" />
         <item itemvalue="Application.validPal" />
         <item itemvalue="Application.count" />
         <item itemvalue="Application.SpiralMatrix" />
