@@ -9,6 +9,7 @@ public class QuickSort {
 
     static void sort (int[] nums,int low,int hi){
         if(low>=hi){
+            System.out.println("Done");
             return;
         }
         int s = low;
@@ -34,6 +35,7 @@ public class QuickSort {
         }
 
         sort(nums,low,e);
+
         sort(nums,s,hi);
 
     }
