@@ -80,7 +80,45 @@ public class implementation {
         }
 
         public boolean containsKey(K key){
-            return false;
+            int bi = hashFunction(key);
+            int di = searchInLL(key,bi);
+
+            if(di == -1){
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+
+        public V get(K key){
+            int bi = hashFunction(key);
+            int di = searchInLL(key,bi);
+
+            if(di == -1){
+                return null;
+            }
+            else{
+                Node node =  buckets[bi].get(di);
+                return node.value;
+            }
+        }
+
+        public V remove(K key){
+            int bi = hashFunction(key);
+            int di = searchInLL(key,bi);
+
+            if(di == -1){
+                return null;
+            }
+            else{
+                Node node =  buckets[bi].remove(di);
+                return node.value;
+            }
+        }
+
+        public boolean isEmpty(){
+          return n == 0;
         }
 
         public static void main(String[] args) {
