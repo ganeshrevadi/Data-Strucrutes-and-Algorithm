@@ -121,11 +121,16 @@ public class implementation {
           return n == 0;
         }
 
-        public static void main(String[] args) {
-            HashMap<String,Integer> map = new HashMap<>();
-            map.put("India",190);
-            map.put("China",200);
 
-        }
+    }
+    public static void main(String[] args) {
+        HashMap<String,Integer> map = new HashMap<>();
+        map.put("India",190);
+        map.put("China",200);
+        System.out.println(map.get("India"));
+
+        map.remove("China");
+        System.out.println(map.get("China"));
+
     }
 }
