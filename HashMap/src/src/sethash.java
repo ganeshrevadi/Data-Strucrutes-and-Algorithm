@@ -13,6 +13,7 @@ public class sethash {
         System.out.println(set);
         System.out.println(set.size());
 
+        System.out.println(set.toArray());
         Iterator it = set.iterator();
         while (it.hasNext()){
             System.out.println(it.next());
