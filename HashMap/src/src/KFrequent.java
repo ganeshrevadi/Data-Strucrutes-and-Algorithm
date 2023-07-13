@@ -1,10 +1,11 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
-public class MajorityElementI_II {
+public class KFrequent {
     public static void main(String[] args) {
-        int[] nums = {3,2,3};
+        int[] nums = {1,1,1,2,2,3};
         int n = 3;
         int k = 2;
 
@@ -20,10 +21,16 @@ public class MajorityElementI_II {
         }
 
         for(int key : map.keySet()){
-            if(map.get(key) > n/3 ){
+            if(map.get(key) >= k ){
                 result.add(key);
             }
         }
-        System.out.println(result);
+
+        Integer[] integerArray = result.toArray(new Integer[0]);
+        int[] intArray = new int[integerArray.length];
+        for (int i = 0; i < integerArray.length; i++) {
+            intArray[i] = integerArray[i].intValue();
+        }
+        System.out.println(Arrays.toString(intArray));
     }
 }
