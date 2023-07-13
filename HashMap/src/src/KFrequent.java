@@ -1,9 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Collections;
-
+import java.util.*;
 public class KFrequent {
     public static void main(String[] args) {
         int[] nums = {1,1,1,2,2,3};
@@ -21,19 +16,16 @@ public class KFrequent {
             }
         }
 
-        for(int key : map.keySet()){
-           result.add(map.get(key));
+        Queue<Integer> heap = new PriorityQueue<>((n1, n2) -> map.get(n1) - map.get(n2));
+        for (int z: map.keySet()) {
+            heap.add(z);
+            if (heap.size() > k) heap.poll();
         }
-        System.out.println(result);
-        Collections.sort(result, Collections.reverseOrder());
-        System.out.println(result);
 
-
-        Integer[] integerArray = result.toArray(new Integer[0]);
-        int[] intArray = new int[k];
-        for (int i = 0; i < k; i++) {
-            intArray[i] = integerArray[i].intValue();
+        int[] top = new int[k];
+        for(int i = k - 1; i >= 0; --i) {
+            top[i] = heap.poll();
         }
-        System.out.println(Arrays.toString(intArray));
+        System.out.println(Arrays.toString(top));
     }
 }
