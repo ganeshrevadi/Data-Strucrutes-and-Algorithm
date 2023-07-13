@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Collections;
 
 public class KFrequent {
     public static void main(String[] args) {
@@ -21,14 +22,16 @@ public class KFrequent {
         }
 
         for(int key : map.keySet()){
-            if(map.get(key) >= k ){
-                result.add(key);
-            }
+           result.add(map.get(key));
         }
+        System.out.println(result);
+        Collections.sort(result, Collections.reverseOrder());
+        System.out.println(result);
+
 
         Integer[] integerArray = result.toArray(new Integer[0]);
-        int[] intArray = new int[integerArray.length];
-        for (int i = 0; i < integerArray.length; i++) {
+        int[] intArray = new int[k];
+        for (int i = 0; i < k; i++) {
             intArray[i] = integerArray[i].intValue();
         }
         System.out.println(Arrays.toString(intArray));
