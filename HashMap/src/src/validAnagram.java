@@ -9,8 +9,8 @@ public class validAnagram {
         char[] ch1 = s.toCharArray();
         char[] ch2 = t.toCharArray();
 
-        HashMap<Character,Integer> map = new HashMap<Character, Integer>();
-        HashMap<Character,Integer> map2 = new HashMap<Character, Integer>();
+        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+        HashMap<Character, Integer> map2 = new HashMap<Character, Integer>();
 
         for (char c : ch1) {
             map.put(c, map.getOrDefault(c, 0) + 1);
@@ -35,6 +35,5 @@ public class validAnagram {
 
         boolean ans = map.equals(map2);
         System.out.println(ans);
-
     }
 }
