@@ -17,6 +17,7 @@ public class subStingLongest {
             right++;
         }
         System.out.println(len);
+        System.out.println("Done!");
 
     }
 }
