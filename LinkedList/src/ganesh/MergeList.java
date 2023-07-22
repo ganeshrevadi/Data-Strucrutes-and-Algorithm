@@ -16,6 +16,13 @@ public class MergeList {
     public static void main(String[] args) {
         //List1[1,2,4]
         //List2[1,3,4]
+
+        String haystack = "hello";
+        String needle = "ll";
+        if(haystack.contains(needle)){
+            System.out.println(haystack.indexOf(needle));
+            System.out.println(true);
+        }
     }
 
     public static ListNode Merge(ListNode list1 ,ListNode list2){

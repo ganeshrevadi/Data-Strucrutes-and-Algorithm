@@ -6,7 +6,7 @@ class Solution {
     public boolean isPalindrome(ListNode head) {
         ListNode temp = null;
         ListNode temp2 = null;
-        int count;
+        int count = 0;
         while(temp != null){
             temp = temp.next;
             count++;
