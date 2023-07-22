@@ -39,6 +39,7 @@ public class CustomStack {
         stack.push(10);
 
         System.out.println(stack.pop());
+        System.out.println("Done!!");
 
     }
 }
