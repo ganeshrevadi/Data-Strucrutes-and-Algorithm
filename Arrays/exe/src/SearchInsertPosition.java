@@ -19,6 +19,6 @@ public class SearchInsertPosition {
                 r = m - 1;
         }
 
-        return m;
+        return l;
     }
 }
