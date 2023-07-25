@@ -42,6 +42,6 @@ public class RPN {
                 st.push(Integer.valueOf(tokens[i]));
             }
         }
-        System.out.println(res);
+        System.out.println(st.pop());
     }
 }
