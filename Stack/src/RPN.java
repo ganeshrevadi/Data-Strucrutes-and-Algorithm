@@ -1,19 +1,47 @@
+import java.util.Arrays;
 import java.util.Stack;
 
 public class RPN {
     public static void main(String[] args) {
-        Stack<String> st = new Stack<>();
-        String[] tokens = {"2","1","+","3","*"};
+        Stack<Integer> st = new Stack<>();
+        String[] tokens = {"10","6","9","3","+","-11","*","/","*","17","+","5","+"};
         int n = 0;
+        int left;
+        int right;
+        int res =0;
 
-        while(n != tokens.length){
-            if(tokens[n] != "+" || tokens[n] != "-" || tokens[n] != "*" || tokens[n] != "/"){
-                st.push(tokens[n]);
+        for (int i = 0; i < tokens.length; i++) {
+            if(tokens[i].equals("+")){
+                right = st.pop();
+                left = st.pop();
+                res = left + right;
+                st.push(res);
+            }
+            else if(tokens[i].equals("-")){
+                right = st.pop();
+                left = st.pop();
+                res = left - right;
+                st.push(res);
+
+            }
+            else if(tokens[i].equals("*")){
+                right = st.pop();
+                left = st.pop();
+                res = left * right;
+                st.push(res);
+
+            }
+            else if(tokens[i].equals("/")){
+                right = st.pop();
+                left = st.pop();
+                res = left / right;
+                st.push(res);
+
             }
             else{
-                String right = st.pop();
-                String left = st.pop();
+                st.push(Integer.valueOf(tokens[i]));
             }
         }
+        System.out.println(res);
     }
 }
