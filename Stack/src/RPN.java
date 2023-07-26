@@ -9,7 +9,6 @@ public class RPN {
         int left;
         int right;
         int res =0;
-        int num;
 
         for (int i = 0; i < tokens.length; i++) {
             if(tokens[i].equals("+")){
