@@ -18,7 +18,6 @@ public class insertionSort {
                 nums[j - 1] = temp;
                 j--;
             }
-
         }
     }
 }
