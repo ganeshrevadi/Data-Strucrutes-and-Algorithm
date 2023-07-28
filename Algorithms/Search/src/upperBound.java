@@ -1,17 +1,17 @@
-public class lowerBound {
+public class upperBound {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
-        int ans = LB(arr, 3);
+        int ans = UB(arr, 3);
         System.out.println(ans);
     }
 
-    static int LB(int[] arr,int target){
+    static int UB(int[] arr,int target){
         int start = 0;
         int end = arr.length - 1;
         int ans = -1;
-        while (start <= end) {
+        while (start < end) {
             int mid = start + (end - start) / 2;
-            if (target <= arr[mid]) {
+            if (target < arr[mid]) {
                 ans = mid;
                 end = mid - 1;
             }
