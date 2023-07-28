@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class searchInsert {
+public class firstLastPos {
     public static void main(String[] args) {
         int[] arr = {5,7,7,8,8,10};
         int[] res = searchRange(arr,8);
