@@ -19,6 +19,6 @@ public class lowerBound {
                 start = mid + 1;
             }
         }
-        return ans;
+        return -1;
     }
 }
