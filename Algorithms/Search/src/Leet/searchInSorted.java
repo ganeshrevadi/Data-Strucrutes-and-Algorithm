@@ -5,6 +5,7 @@ public class searchInSorted {
         int[] arr = {4,5,6,7,0,1,2};
         int target = 0;
         System.out.println(search(arr,target));
+        System.out.printf("Done!");
     }
 
     static int search(int[] arr , int target) {
