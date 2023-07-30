@@ -11,15 +11,23 @@ public class findMinInRotatedSorted {
         int end = arr.length - 1;
         while(start <= end){
             int mid = start + (end - start) / 2;
-            if(arr[start] < arr[mid] && arr[mid] < arr[end]){
+            if(start == mid){
+                if(arr[start] < arr[end]){
+                    return arr[start];
+                }
+                else{
+                    return arr[end];
+                }
+            }
+            else if(arr[start] < arr[mid] && arr[mid] < arr[end]){
                 return arr[start];
             }
-            if(arr[mid - 1] > arr[mid]){
-                return arr[mid];
-            } else if (arr[mid] > arr[mid + 1]) {
+            else if (arr[mid] > arr[mid + 1]) {
                 return arr[mid + 1];
-
-            } else if (arr[start] > arr[mid]){
+            }
+            else if(arr[mid - 1] > arr[mid]){
+                return arr[mid];
+            }  else if (arr[start] > arr[mid]){
                 end = mid - 1;
             }
             else {
