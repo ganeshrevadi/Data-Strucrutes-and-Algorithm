@@ -2,7 +2,8 @@ package Leet;
 
 public class peakElement {
     public static void main(String[] args) {
-
+        int[] arr = {5,6,7,3,2,1};
+        System.out.println(findPeak(arr));
     }
 
     static int findPeak(int[] nums){
