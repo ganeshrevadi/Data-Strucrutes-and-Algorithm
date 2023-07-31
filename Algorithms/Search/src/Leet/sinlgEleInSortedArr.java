@@ -6,7 +6,7 @@ public class sinlgEleInSortedArr {
         System.out.println(singleNonDuplicate(nums));
     }
     static int singleNonDuplicate(int[] nums){
-        int n = nums.length - 1;
+        int n = nums.length;
         if(n == 1) return nums[0];
         if(nums[0] != nums[1]){
             return nums[0];
