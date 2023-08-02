@@ -6,6 +6,7 @@ public class Mbouquets {
         int m = 3;
         int k = 1;
         System.out.println(BS(arr,m,k));
+        System.out.println(Brute(arr,m,k));
     }
 
     public static boolean possible(int[] arr,int day,int m ,int k){
@@ -42,6 +43,24 @@ public class Mbouquets {
             }
         }
         return low;
+    }
+
+    static int Brute(int[] arr ,int m , int k){
+        long val = (long) m * k;
+        int n = arr.length;
+        if (val > n) return -1;
+        int low = Integer.MAX_VALUE, high = Integer.MIN_VALUE;
+        for (int i = 0; i < n; i++) {
+            low = Math.min(low, arr[i]);
+            high = Math.max(high, arr[i]);
+        }
+
+        for (int i = low; i < high; i++) {
+            if(possible(arr,i,m,k)){
+                return i;
+            }
+        }
+        return -1;
     }
 
 }
