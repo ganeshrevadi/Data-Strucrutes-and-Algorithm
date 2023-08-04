@@ -1,10 +1,14 @@
 package Leet;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class splitArrayLargestSum {
     public static void main(String[] args) {
         int[] arr = {7,2,5,10,8};
         int k = 2;
         System.out.println(splitArray(arr,k));
+        Arrays.sort(arr);
     }
     public static int splitArray(int[] weights, int days) {
         int low = 0,high = 0;
