@@ -8,7 +8,7 @@ public class splitArrayLargestSum {
         int[] arr = {7,2,5,10,8};
         int k = 2;
         System.out.println(splitArray(arr,k));
-        Arrays.sort(arr);
+        System.out.println(brute(arr,k));
     }
     public static int splitArray(int[] weights, int days) {
         int low = 0,high = 0;
@@ -27,6 +27,24 @@ public class splitArrayLargestSum {
             }
             else {
                 low = mid + 1;
+            }
+        }
+        return low;
+    }
+
+    static int brute(int[] weights , int days){
+        int low = 0,high = 0;
+        for (int i = 0; i < weights.length; i++) {
+            low = Math.max(weights[i],low);
+        }
+        for (int i = 0; i < weights.length ; i++) {
+            high += weights[i];
+        }
+
+        for(int i = low ; i <= high;i++){
+            int ref = possible(weights,i);
+            if(ref == days){
+                return i;
             }
         }
         return low;

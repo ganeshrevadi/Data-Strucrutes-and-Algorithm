@@ -6,6 +6,7 @@ public class shipMinWeight {
         int[] arr = {1,2,3,4,5,6,7,8,9,10};
         int days = 5;
         System.out.println(shipWithinDays(arr,days));
+        System.out.println(brute(arr,days));
     }
 
     public static int shipWithinDays(int[] weights, int days) {
@@ -25,6 +26,24 @@ public class shipMinWeight {
             }
             else {
                 low = mid + 1;
+            }
+        }
+        return low;
+    }
+
+    static int brute(int[] weights , int days){
+        int low = 0,high = 0;
+        for (int i = 0; i < weights.length; i++) {
+            low = Math.max(weights[i],low);
+        }
+        for (int i = 0; i < weights.length ; i++) {
+            high += weights[i];
+        }
+
+        for(int i = low ; i <= high;i++){
+            int ref = possible(weights,i);
+            if(ref == days){
+                return i;
             }
         }
         return low;
