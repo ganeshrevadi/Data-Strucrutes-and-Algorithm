@@ -14,7 +14,6 @@ public class peakElementII {
         while(start <= end){
             int mid = start + (end - start) / 2;
             int maxIndex = max(mat[mid]);
-            int maxElement = mat[mid][maxIndex];
             if(isPeak(mat,mid,maxIndex)){
                 return new int[] {mid , maxIndex};
             } else if (isSmaller(mat,mid,maxIndex)) {
