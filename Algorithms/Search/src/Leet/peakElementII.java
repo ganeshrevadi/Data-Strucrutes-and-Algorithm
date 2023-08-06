@@ -45,7 +45,7 @@ public class peakElementII {
         int n = mat[0].length;
         int max = mat[mid][index];
         int top = mid == 0?-1 : mat[mid - 1][index];
-        int bottom = mid == m -1 ?-1: mat[index + 1][index];
+        int bottom = mid == m -1 ?-1: mat[mid + 1][index];
         int left = index == 0?-1:mat[mid][index - 1];
         int right = index == n - 1 ? -1: mat[mid][index + 1];
         return (max > top && max > bottom && max > left && max > right);
