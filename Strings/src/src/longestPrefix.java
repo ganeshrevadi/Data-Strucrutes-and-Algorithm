@@ -1,21 +1,27 @@
 public class longestPrefix {
     public static void main(String[] args) {
-        String[] str = {"flower","flow","flight"};
+        String[] str = {"aaa","aa","aaa"};
         System.out.println(longestCommonPrefix(str));
     }
 
     public static String longestCommonPrefix(String[] strs) {
         StringBuilder sb = new StringBuilder();
+        if(strs[0].charAt(0) != strs[1].charAt(0)){
+            return new String("");
+        }
+        String ref = strs[0];
         for(int i = 1 ; i < strs.length;i++){
             for(int j= 0; j<strs[i].length();j++){
-                if(strs[i - 1].charAt(i) != strs[i].charAt(i)){
+                if(strs[i].charAt(j) != ref.charAt(j)){
                     break;
                 }
                 else {
-                    sb.append(strs[i].charAt(i));
+                    sb.append(strs[i].charAt(j));
                 }
             }
+            ref = sb.toString();
+            sb.delete(0,sb.length());
         }
-        return sb.toString();
+        return ref;
     }
 }
