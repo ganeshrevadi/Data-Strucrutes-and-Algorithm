@@ -1,3 +1,5 @@
+import java.util.Collections;
+
 public class longestPrefix {
     public static void main(String[] args) {
         String[] str = {"aaa","aa","aaa"};
@@ -6,22 +8,22 @@ public class longestPrefix {
 
     public static String longestCommonPrefix(String[] strs) {
         StringBuilder sb = new StringBuilder();
-        if(strs[0].charAt(0) != strs[1].charAt(0)){
-            return new String("");
-        }
+
+        if (strs == null || strs.length == 0)
+            return "";
+
         String ref = strs[0];
-        for(int i = 1 ; i < strs.length;i++){
-            for(int j= 0; j<strs[i].length();j++){
-                if(strs[i].charAt(j) != ref.charAt(j)){
-                    break;
-                }
-                else {
-                    sb.append(strs[i].charAt(j));
+
+        for (int i = 0; i < ref.length(); i++) {
+            char c = ref.charAt(i);
+            for (int j = 1; j < strs.length; j++) {
+                if (i >= strs[j].length() || strs[j].charAt(i) != c) {
+                    return sb.toString();
                 }
             }
-            ref = sb.toString();
-            sb.delete(0,sb.length());
+            sb.append(c);
         }
-        return ref;
+
+        return sb.toString();
     }
 }
