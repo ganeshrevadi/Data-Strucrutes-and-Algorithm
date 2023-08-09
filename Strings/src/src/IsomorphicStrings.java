@@ -1,6 +1,6 @@
 public class IsomorphicStrings {
     public static void main(String[] args) {
-        System.out.println(isIsomorphic("egg","add"));
+        System.out.println(isIsomorphic("frr","jai"));
     }
 
     public  static boolean isIsomorphic(String s, String t) {
