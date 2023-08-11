@@ -5,6 +5,7 @@ import java.util.Map;
 public class FrequencySort {
     public static void main(String[] args) {
         System.out.println(frequencySort("tree"));
+        System.out.println("Done !");
     }
 
     public static String frequencySort(String s) {
