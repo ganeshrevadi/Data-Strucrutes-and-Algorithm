@@ -3,6 +3,7 @@ public class Microsoft1 {
     int[] A = {5,1,2,6,6,1,3,1,4,3,4,3,4,6,1,2,4,1,6,2};
         System.out.println(solution(A));
         System.out.println(solutino(A));
+        System.out.println("Done!");
     }
 
     public static int solutino(int[] A){
