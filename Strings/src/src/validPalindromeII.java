@@ -3,6 +3,7 @@ public class validPalindromeII {
 
         String s = "abca";
         System.out.println(validPalindrome(s));
+        System.out.println("Done");
     }
     public static boolean validPalindrome(String s) {
         int start = 0;
