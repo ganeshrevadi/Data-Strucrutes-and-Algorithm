@@ -6,7 +6,9 @@ public class validPalindromeII {
         System.out.println("Done");
         System.out.println("YO");
     }
-    public static boolean validPalindrome(String s) {
+
+
+    private static boolean validPalindrome(String s){
         int start = 0;
         int end = s.length() - 1;
         while(start <= end){
