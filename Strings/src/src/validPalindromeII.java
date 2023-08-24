@@ -4,7 +4,7 @@ public class validPalindromeII {
         String s = "abca";
         System.out.println(validPalindrome(s));
         System.out.println("Done");
-        System.out.println("YO");
+        System.out.println("I'm back dude");
     }
 
 
