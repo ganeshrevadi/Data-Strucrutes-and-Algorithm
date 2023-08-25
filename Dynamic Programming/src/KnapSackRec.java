@@ -13,6 +13,7 @@ public class KnapSackRec {
 
     public static int knapsack(int[] wt,int[] val,int W,int n){
 
+        // Base Condition
         if( n == 0 || W == 0){
             return 0;
         }
