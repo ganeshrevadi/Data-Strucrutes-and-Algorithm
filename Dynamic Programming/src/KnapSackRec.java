@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class KnapSackRec {
     public static void main(String[] args) {
 
@@ -5,10 +7,12 @@ public class KnapSackRec {
         int wt[] = { 10, 20, 30 };
         int W = 50;
         int n = val.length;
+
         System.out.println(knapsack(wt,val,W,n));
     }
 
     public static int knapsack(int[] wt,int[] val,int W,int n){
+
         if( n == 0 || W == 0){
             return 0;
         }
