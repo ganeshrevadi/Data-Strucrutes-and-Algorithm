@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa">
-      <change afterPath="$PROJECT_DIR$/code/src/KthGrammar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/ReverseStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/ReverseStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/ReverseStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/ReverseStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/KthGrammar.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/KthGrammar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
