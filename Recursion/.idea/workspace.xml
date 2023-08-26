@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa">
-      <change afterPath="$PROJECT_DIR$/code/src/ReverseStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/KthGrammar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/ReverseStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/ReverseStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/ReverseStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/ReverseStack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,14 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/rebrunda/IdeaProjects/Data-Strucrutes-and-Algorithm/Recursion&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReverseStack">
+  <component name="RunManager" selected="Application.KthGrammar">
+    <configuration name="KthGrammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KthGrammar" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReverseStack" />
       <module name="code" />
@@ -51,13 +61,6 @@
     </configuration>
     <configuration name="heigthOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="heigthOfTree" />
-      <module name="code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="oneToN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oneToN" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KthGrammar" />
         <item itemvalue="Application.ReverseStack" />
         <item itemvalue="Application.sortStack" />
         <item itemvalue="Application.sortArray" />
         <item itemvalue="Application.heigthOfTree" />
-        <item itemvalue="Application.oneToN" />
       </list>
     </recent_temporary>
   </component>

@@ -14,13 +14,13 @@ public class ReverseStack {
 
 
     static void reverse(Stack<Integer> st){
-        if(st.isEmpty()){
+        if(st.size() == 1){ // Base Condition
             return;
         }
-        int temp = st.peek();
+        int temp = st.peek(); // Hypothesis
         st.pop();
         reverse(st);
-        insert(st,temp);
+        insert(st,temp); // induction
     }
     static void insert(Stack<Integer> st, int temp){
         if(st.isEmpty()){
