@@ -7,14 +7,14 @@ class Node{
         left = right = null;
     }
 }
-public class heigthOfTree {
+public class heightOfTree {
     Node root;
 
     // Constructors
-    heigthOfTree(int key) { root = new Node(key); }
-    heigthOfTree() { root = null; }
+    heightOfTree(int key) { root = new Node(key); }
+    heightOfTree() { root = null; }
     public static void main(String[] args) {
-        heigthOfTree tree = new heigthOfTree();
+        heightOfTree tree = new heightOfTree();
         tree.root = new Node(1);
 
         tree.root.left = new Node(2);
@@ -22,17 +22,17 @@ public class heigthOfTree {
 
         tree.root.left.left = new Node(4);
 
-        System.out.println(Heigth(tree.root));
+        System.out.println(Height(tree.root));
     }
 
-    static int Heigth(Node root){
+    static int Height(Node root){
         if(root == null){
             return 0;
         }
-        int left = Heigth(root.left);
-        int rigth = Heigth(root.right);
+        int left = Height(root.left);
+        int right = Height(root.right);
 
-        return 1 + Math.max(left, rigth);
+        return 1 + Math.max(left, right);
     }
 }
 
