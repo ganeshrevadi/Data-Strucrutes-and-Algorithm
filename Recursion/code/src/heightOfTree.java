@@ -23,6 +23,7 @@ public class heightOfTree {
         tree.root.left.left = new Node(4);
 
         System.out.println(Height(tree.root));
+        System.out.println("Hey");
     }
 
     static int Height(Node root){
