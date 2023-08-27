@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa">
-      <change afterPath="$PROJECT_DIR$/code/src/GenerateAllValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/JosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/JosephusProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +41,16 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/rebrunda/IdeaProjects/Data-Strucrutes-and-Algorithm/Recursion&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GenerateAllValidParentheses">
+  <component name="RunManager" selected="Application.JosephusProblem">
     <configuration name="GenerateAllValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenerateAllValidParentheses" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JosephusProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JosephusProblem" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,13 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TowerofHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TowerofHanoi" />
-      <module name="code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Recursion" />
       <method v="2">
@@ -92,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JosephusProblem" />
         <item itemvalue="Application.GenerateAllValidParentheses" />
         <item itemvalue="Application.LettterCasePermutation" />
         <item itemvalue="Application.PermutationSpaces" />
         <item itemvalue="Application.Powersets" />
-        <item itemvalue="Application.TowerofHanoi" />
       </list>
     </recent_temporary>
   </component>
