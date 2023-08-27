@@ -11,8 +11,6 @@ public class ReverseStack {
         System.out.println(st);
         System.out.println(st.peek());
     }
-
-
     static void reverse(Stack<Integer> st){
         if(st.size() == 1){ // Base Condition
             return;
