@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa">
+      <change afterPath="$PROJECT_DIR$/code/src/TowerofHanoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/KthGrammar.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/KthGrammar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/KthGrammar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/KthGrammar.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/rebrunda/IdeaProjects/Data-Strucrutes-and-Algorithm/Recursion&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.KthGrammar">
+  <component name="RunManager" selected="Application.TowerofHanoi">
     <configuration name="KthGrammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KthGrammar" />
       <module name="code" />
@@ -57,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="heigthOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heigthOfTree" />
+    <configuration name="TowerofHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TowerofHanoi" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TowerofHanoi" />
         <item itemvalue="Application.KthGrammar" />
         <item itemvalue="Application.ReverseStack" />
         <item itemvalue="Application.sortStack" />
         <item itemvalue="Application.sortArray" />
-        <item itemvalue="Application.heigthOfTree" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +143,15 @@
           <url>file://$PROJECT_DIR$/code/src/Pow.java</url>
           <line>3</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/code/src/KthGrammar.java</url>
+          <line>7</line>
+          <properties class="KthGrammar" method="kthGrammar">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
