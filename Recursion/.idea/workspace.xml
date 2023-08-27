@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa">
-      <change beforePath="$PROJECT_DIR$/code/src/Powersets.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Powersets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/PermutationSpaces.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +41,16 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/rebrunda/IdeaProjects/Data-Strucrutes-and-Algorithm/Recursion&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Powersets">
+  <component name="RunManager" selected="Application.PermutationSpaces">
     <configuration name="KthGrammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KthGrammar" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PermutationSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PermutationSpaces" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,13 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sortStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sortStack" />
-      <module name="code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Recursion" />
       <method v="2">
@@ -92,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PermutationSpaces" />
         <item itemvalue="Application.Powersets" />
         <item itemvalue="Application.TowerofHanoi" />
         <item itemvalue="Application.KthGrammar" />
         <item itemvalue="Application.ReverseStack" />
-        <item itemvalue="Application.sortStack" />
       </list>
     </recent_temporary>
   </component>
