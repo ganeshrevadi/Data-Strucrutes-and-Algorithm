@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa">
-      <change afterPath="$PROJECT_DIR$/code/src/PermutationSpaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/LettterCasePermutation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +41,16 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/rebrunda/IdeaProjects/Data-Strucrutes-and-Algorithm/Recursion&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PermutationSpaces">
+  <component name="RunManager" selected="Application.LettterCasePermutation">
     <configuration name="KthGrammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KthGrammar" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LettterCasePermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LettterCasePermutation" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -58,13 +65,6 @@
     </configuration>
     <configuration name="Powersets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Powersets" />
-      <module name="code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseStack" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LettterCasePermutation" />
         <item itemvalue="Application.PermutationSpaces" />
         <item itemvalue="Application.Powersets" />
         <item itemvalue="Application.TowerofHanoi" />
         <item itemvalue="Application.KthGrammar" />
-        <item itemvalue="Application.ReverseStack" />
       </list>
     </recent_temporary>
   </component>
