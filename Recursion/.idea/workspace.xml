@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/combinationSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/combinationSumII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/combinationSumII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/combinationSumII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/N_Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/N_Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/N_Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/N_Queen.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-19/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
