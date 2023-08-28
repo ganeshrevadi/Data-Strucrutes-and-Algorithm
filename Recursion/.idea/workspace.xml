@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa">
-      <change beforePath="$PROJECT_DIR$/code/src/Pow.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Pow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/Pow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/Pow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/SubSets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/rebrunda/IdeaProjects/Data-Strucrutes-and-Algorithm/Recursion&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Pow">
+  <component name="RunManager" selected="Application.SubSets">
     <configuration name="GenerateAllValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenerateAllValidParentheses" />
       <module name="code" />
@@ -64,15 +64,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PermutationSpaces" />
+    <configuration name="Pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pow" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pow" />
+    <configuration name="SubSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SubSets" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubSets" />
         <item itemvalue="Application.Pow" />
         <item itemvalue="Application.JosephusProblem" />
         <item itemvalue="Application.GenerateAllValidParentheses" />
         <item itemvalue="Application.LettterCasePermutation" />
-        <item itemvalue="Application.PermutationSpaces" />
       </list>
     </recent_temporary>
   </component>
