@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa">
-      <change afterPath="$PROJECT_DIR$/code/src/combinationSumII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/combinationSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/combinationSumII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/combinationSumII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/combinationSumII.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +43,16 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/rebrunda/IdeaProjects/Data-Strucrutes-and-Algorithm/Recursion&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.combinationSumII">
-    <configuration name="GenerateAllValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenerateAllValidParentheses" />
+  <component name="RunManager" selected="Application.N_Queen">
+    <configuration name="JosephusProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JosephusProblem" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JosephusProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JosephusProblem" />
+    <configuration name="N_Queen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="N_Queen" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.combinationSumII" />
+        <item itemvalue="Application.N_Queen" />
         <item itemvalue="Application.SubSets" />
+        <item itemvalue="Application.combinationSumII" />
         <item itemvalue="Application.Pow" />
         <item itemvalue="Application.JosephusProblem" />
-        <item itemvalue="Application.GenerateAllValidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +147,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/code/src/combinationSumII.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
