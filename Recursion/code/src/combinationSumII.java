@@ -14,34 +14,29 @@ public class combinationSumII {
         List<List<Integer>> ans = new ArrayList<>();
          ArrayList<Integer> arr = new ArrayList<>();
         Arrays.sort(candidates);
-        for (int i : candidates) {
-            arr.add(i);
-        }
-        findCombination(0,arr,target,ans,new ArrayList<>());
+
+        findCombination(0,candidates,target,ans,new ArrayList<>());
         return ans;
     }
 
 
-    private static void findCombination(int ind, ArrayList<Integer> arr, int target, List<List<Integer>> ans, List<Integer> ds) {
-        if(target == 0){
-            if(!ans.contains(ds)){
-                ans.add(new ArrayList(ds));
-                return;
-            }
-
-        }
-
-
-        if(target < 0){
+    private static void findCombination(int ind, int[] candidates, int target, List<List<Integer>> ans, List<Integer> ds) {
+        if (target == 0) {
+            ans.add(new ArrayList<>(ds));
             return;
         }
 
-        for (int i = ind; i < arr.size(); i++) {
-            ds.add(arr.get(i));
-            int temp = arr.get(i);
-            arr.remove(arr.get(i));
-            findCombination(i,arr,target - temp,ans,ds);
-            arr.add(i,temp);
+        for (int i = ind; i < candidates.length; i++) {
+            if (i > ind && candidates[i] == candidates[i - 1]) {
+                continue; // Skip duplicates
+            }
+
+            if (candidates[i] > target) {
+                break; // Since the array is sorted, further elements will also be too large
+            }
+
+            ds.add(candidates[i]);
+            findCombination(i + 1, candidates, target - candidates[i], ans, ds);
             ds.remove(ds.size() - 1);
         }
     }
