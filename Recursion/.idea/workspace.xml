@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa">
+      <change afterPath="$PROJECT_DIR$/code/src/SubStringCombi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/PlaindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/PlaindromePartitioning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/code/PlaindromePartitioning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/PlaindromePartitioning.class" afterDir="false" />
@@ -47,13 +48,6 @@
   }
 }</component>
   <component name="RunManager" selected="Application.PlaindromePartitioning">
-    <configuration name="N_Queen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="N_Queen" />
-      <module name="code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Permutation" />
       <module name="code" />
@@ -70,6 +64,13 @@
     </configuration>
     <configuration name="PlaindromePartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PlaindromePartitioning" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubStringCombi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SubStringCombi" />
       <module name="code" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,10 +99,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PlaindromePartitioning" />
+        <item itemvalue="Application.SubStringCombi" />
         <item itemvalue="Application.combinationSumII" />
         <item itemvalue="Application.PermutationII" />
         <item itemvalue="Application.Permutation" />
-        <item itemvalue="Application.N_Queen" />
       </list>
     </recent_temporary>
   </component>
