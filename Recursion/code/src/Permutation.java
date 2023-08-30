@@ -30,4 +30,9 @@ public class Permutation {
             }
         }
     }
+
+    public static boolean isPal(ArrayList<String> str){
+
+        return true;
+    }
 }
