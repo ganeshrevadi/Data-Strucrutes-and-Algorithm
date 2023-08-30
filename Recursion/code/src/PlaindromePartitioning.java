@@ -28,7 +28,6 @@ public class PlaindromePartitioning {
                 arr.add(String.valueOf(nums.charAt(i)));
                 helper(nums, res, arr);
                 arr.remove(arr.size() - 1);
-
             }
         }
     }
