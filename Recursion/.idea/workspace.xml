@@ -7,6 +7,7 @@
     <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/PlaindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/PlaindromePartitioning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/PlaindromePartitioning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/PlaindromePartitioning.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
