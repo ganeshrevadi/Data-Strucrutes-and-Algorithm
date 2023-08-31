@@ -33,17 +33,54 @@ class BinaryTree {
         if(right){
             System.out.println("Enter the value of the right of " + node.val);
             int value = scanner.nextInt();
-            node.left = new Node(value);
+            node.rigth = new Node(value);
             populate(scanner,node.rigth);
         }
 
     }
 
+    public void display(){
+        display(this.root, "");
 
+    }
+    private void  display(Node node , String indent){
+        if(node == null){
+            return;
+        }
+        System.out.println(indent + node.val);
+        display(node.left ,indent + "\t");
+        display(node.rigth ,indent + "\t");
+    }
+
+    public void preetyDisplay(){
+        preetyDisplay(root, 0);
+    }
+
+    private void preetyDisplay(Node node, int level) {
+        if(node == null){
+            return;
+        }
+
+        preetyDisplay(node.rigth,level + 1);
+        if(level != 0){
+            for (int i = 0; i < level- 1; i++) {
+                System.out.print("|\t\t");
+            }
+            System.out.println("|-------->" + node.val);
+        }
+        else {
+            System.out.println(node.val);
+        }
+        preetyDisplay(node.left,level + 1);
+    }
 
 }
 public class Main {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
+        BinaryTree tree = new BinaryTree();
+        tree.populate(scanner);
+        tree.display();
+        tree.preetyDisplay();
     }
 }
