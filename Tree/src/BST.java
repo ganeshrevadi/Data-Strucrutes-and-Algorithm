@@ -1,3 +1,8 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
 public  class BST {
     public class Node {
         private int value;
@@ -14,7 +19,7 @@ public  class BST {
         }
     }
 
-    private Node root;
+    public Node root;
 
     public BST() {
 
@@ -119,6 +124,36 @@ public  class BST {
             System.out.println(node.value);
         }
         preetyDisplay(node.left,level + 1);
+    }
+
+    public void levelOrder(){
+
+    }
+    public List<List<Integer>> levelOrder(BST.Node root) {
+        List<List<Integer>>  res =  new ArrayList<>();
+        Queue<Node> q = new LinkedList<>();
+        if(root == null){
+            return  res;
+        }
+        q.offer(root);
+        while(!q.isEmpty()){
+            int levelNum = q.size();
+            List<Integer> list = new LinkedList<>();
+
+            for (int i = 0; i < levelNum; i++) {
+                if(q.peek().left != null){
+                    q.offer(q.peek().left);
+                }
+                if(q.peek().right != null){
+                    q.offer(q.peek().right);
+                }
+                list.add(q.poll().value);
+            }
+            res.add(list);
+
+        }
+        return res;
+
     }
 
 }
