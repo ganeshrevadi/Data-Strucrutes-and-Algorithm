@@ -86,7 +86,10 @@ public  class BST {
         return root == null;
     }
 
-    public int height(Node node) {
+    public void height(){
+        height(this.root);
+    }
+    private int height(Node node) {
         if (node == null) {
             return -1;
         }
