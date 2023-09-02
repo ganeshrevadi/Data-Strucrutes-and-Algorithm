@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class DiameterofBT {
     public static int diameterOfBinaryTree(TreeNode root) {
@@ -17,6 +19,7 @@ public class DiameterofBT {
     }
 
     public static void main(String[] args) {
+        List<List<Integer>> res = new ArrayList<>();
         BST tree = new BST();
         tree.insert(1);
         tree.insert(2);
