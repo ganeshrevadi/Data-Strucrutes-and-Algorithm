@@ -1,6 +1,4 @@
 import java.util.*;
-import java.util.Comparator;
-
 
 public class combinationSumII {
     public static void main(String[] args) {
