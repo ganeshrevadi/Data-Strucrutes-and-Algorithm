@@ -1,0 +1,44 @@
+class SegmentTree {
+
+    Node root;
+    public SegmentTree(int[] arr){
+        this.root = constructTree(arr,0,arr.length - 1);
+    }
+    private static class Node{
+        int val;
+        int startInterval;
+        int endInterval;
+        Node left;
+        Node right;
+
+        public Node(int startInterval, int endInterval) {
+            this.startInterval = startInterval;
+            this.endInterval = endInterval;
+        }
+
+    }
+
+    private Node constructTree(int[] arr , int start , int end){
+        if(start == end ) {
+            //Leaf Node
+            Node leaf = new Node(start, end);
+            leaf.val = arr[start];
+            return leaf;
+        }
+        // create new node with index you are at
+        Node node = new Node(start,end);
+        int mid = start + (end - start ) / 2;
+
+        node.left = this.constructTree(arr,start,mid);
+        node.right = this.constructTree(arr,mid + 1 , end);
+
+        node.val = node.left.val + node.right.val;
+        return node;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {-3,8,6,7,-2,-8,4,9};
+
+        SegmentTree tree = new SegmentTree(arr);
+    }
+}
