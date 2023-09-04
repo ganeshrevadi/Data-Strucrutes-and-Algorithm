@@ -10,9 +10,7 @@ public class combinationSumII {
 
     public static List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> ans = new ArrayList<>();
-         ArrayList<Integer> arr = new ArrayList<>();
         Arrays.sort(candidates);
-
         findCombination(0,candidates,target,ans,new ArrayList<>());
         return ans;
     }
