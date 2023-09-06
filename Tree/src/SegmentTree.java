@@ -107,6 +107,7 @@ class SegmentTree {
 
         SegmentTree tree = new SegmentTree(arr);
         tree.display();
+        System.out.println(tree.query(2,8));
         System.out.println(tree.query(1,6));
     }
 }
