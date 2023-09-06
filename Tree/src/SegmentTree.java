@@ -110,4 +110,15 @@ class SegmentTree {
         System.out.println(tree.query(2,8));
         System.out.println(tree.query(1,6));
     }
+
+    public Node invertTree(Node Node){
+        if(Node == null){
+            return Node;
+        }
+        Node temp = Node.right;
+        Node.right = invertTree(Node.left);
+        Node.left = temp;
+
+        return Node;
+    }
 }
