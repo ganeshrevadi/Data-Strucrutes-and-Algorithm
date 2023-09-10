@@ -41,7 +41,7 @@ class Solution {
         if(p == null && q != null || p != null && q == null) return false;
 
         if(p.val!=q.val) return false;
-        System.out.println("Done");
+        System.out.println("Done!");
 
         return isSame(p.left,q.left) && isSame(p.right,q.right);
     }
