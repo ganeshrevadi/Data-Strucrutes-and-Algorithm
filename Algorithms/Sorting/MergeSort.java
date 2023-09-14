@@ -53,6 +53,7 @@ public class MergeSort {
             j++;
             k++;
         }
+        System.out.println("Done!");
 
         return mix;
     }
