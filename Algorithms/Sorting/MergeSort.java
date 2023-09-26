@@ -10,6 +10,7 @@ public class MergeSort {
         System.out.println("Done3");
         System.out.println("Done45");
         System.out.println("Done");
+        System.out.println("Done7");
     }
 
     static int[] mergeSort(int[] arr){
