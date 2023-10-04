@@ -24,7 +24,7 @@ class account
             }
             else
             {
-                balance+=amount;
+                balance += amount;
                 System.out.println("Deposit Successful!");
             }
         }
