@@ -1,6 +1,9 @@
+import java.math.BigInteger;
 import java.util.*;
 public class spiralMatrix {
     public static void main(String[] args) {
+        int a = 5;
+
         List<ArrayList<Integer>> A   = new ArrayList<>();
         A.add(0 , new ArrayList<>());
         A.get(0).add(1);
@@ -51,5 +54,18 @@ public class spiralMatrix {
         }
 
         return result;
+    }
+
+    public String solve(int A) {
+        BigInteger ans = fact(A);
+        return BigInteger.toString(ans);
+    }
+
+    public BigInteger fact(int n){
+        if(n == 1){
+            return 1;
+        }
+
+        return n * fact(n - 1);
     }
 }
