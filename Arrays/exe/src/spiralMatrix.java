@@ -56,16 +56,4 @@ public class spiralMatrix {
         return result;
     }
 
-    public String solve(int A) {
-        BigInteger ans = fact(A);
-        return BigInteger.toString(ans);
-    }
-
-    public BigInteger fact(int n){
-        if(n == 1){
-            return 1;
-        }
-
-        return n * fact(n - 1);
-    }
 }
