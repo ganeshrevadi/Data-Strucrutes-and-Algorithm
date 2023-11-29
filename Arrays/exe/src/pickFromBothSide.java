@@ -1,13 +1,13 @@
 import java.util.*;
 public class pickFromBothSide {
     public static void main(String[] args) {
+        int[] array = {1, 2};
+
         ArrayList<Integer> A = new ArrayList<>();
-        A.add(5);
-        A.add(-2);
-        A.add(3);
-        A.add(1);
-        A.add(2);
-        System.out.println(solve(A, 3));
+        for (int value : array) {
+           A.add(value);
+        }
+        System.out.println(solve(A, 1));
 
     }
 
@@ -19,14 +19,14 @@ public class pickFromBothSide {
             sum += A.get(i);
         }
         maxSum = sum;
-        int j = 0;
-        for(int i = A.size() - 1; i > A.size() - B ; i--){
+        int j = B - 1;
+        for(int i = A.size() - 1; i >= A.size() - B ; i--){
             sum -= A.get(j);
             sum += A.get(i);
             if(sum > maxSum){
                 maxSum = sum;
             }
-            j++;
+            j--;
         }
         return maxSum;
     }
