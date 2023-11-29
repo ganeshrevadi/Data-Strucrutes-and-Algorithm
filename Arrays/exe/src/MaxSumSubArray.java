@@ -3,12 +3,12 @@ import java.util.*;
 public class MaxSumSubArray {
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>();
-        arr.add(1);
-        arr.add(2);
-        arr.add(5);
-        arr.add(-7);
-        arr.add(2);
-        arr.add(5);
+        arr.add(0);
+        arr.add(0);
+        arr.add(-1);
+        arr.add(-0);
+//        arr.add(2);
+//        arr.add(5);
         System.out.println(maxset(arr));
     }
 
@@ -21,7 +21,8 @@ public class MaxSumSubArray {
 
 
         for (int i = 0; i < A.size(); i++) {
-            if (sum == 0) start = i;
+
+            sum += A.get(i);
 
             if(sum >= maxi) {
                 maxi = sum;
@@ -30,10 +31,11 @@ public class MaxSumSubArray {
 
             }
 
-            if (sum < 0 ) sum = 0;
+            if (sum < 0 ) {
+                sum = 0;
+                start = i + 1;
+            }
         }
-
-
         return new ArrayList<>(A.subList(ansStart , end + 1));
     }
 
