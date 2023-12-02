@@ -18,6 +18,4 @@ public class WaveArray {
         }
        return A;
     }
-
-
 }
