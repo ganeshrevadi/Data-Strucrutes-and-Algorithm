@@ -42,5 +42,5 @@ public class MergerIntervals {
                 System.out.println();
             }
         }
-        }
+    }
 }
