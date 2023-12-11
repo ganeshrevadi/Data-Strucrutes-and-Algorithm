@@ -19,7 +19,6 @@ public class validPalindromeII {
             else{
                 return isPal(s.substring(start + 1, end + 1)) || isPal(s.substring(start,end));
             }
-
         }
         return true;
     }
