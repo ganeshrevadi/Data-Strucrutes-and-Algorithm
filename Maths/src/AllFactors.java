@@ -11,6 +11,7 @@ public class AllFactors {
                 res.add(i);
                 if (i != A / i) {
                     res.add(A / i);
+
                 }
             }
         }
