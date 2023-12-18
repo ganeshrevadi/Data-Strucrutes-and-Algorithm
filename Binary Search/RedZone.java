@@ -61,6 +61,7 @@ public class RedZone {
     }
 }
 
+
 class pair{
     double a; double b;
     public pair(double a, double b){
