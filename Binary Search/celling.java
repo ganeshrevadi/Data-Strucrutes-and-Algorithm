@@ -1,3 +1,6 @@
+import java.nio.charset.IllegalCharsetNameException;
+import java.util.ArrayList;
+
 public class celling {
     public static void main(String[] args) {
         int[] arr ={2,5,9,14,16,18};
@@ -7,6 +10,7 @@ public class celling {
 
 
     }
+
 
 
     static int celing(int[] arr,int target){
@@ -31,6 +35,8 @@ public class celling {
                 return mid;
             }
         }
+
+
         return arr[start];
     }
 }
