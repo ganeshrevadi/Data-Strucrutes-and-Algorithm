@@ -1,13 +1,16 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class subSequenceK {
     public static void main(String[] args) {
-
+        generateSub(0 , new ArrayList<>(),  new int[] {3 , 2, 1} , 0);
     }
 
     static void generateSub(int index , List<Integer> arr , int[] a , int sum ){
         if(index >= a.length){
-            System.out.println(arr);
+            if(sum == 3){
+                System.out.println(arr);
+            }
             return;
         }
         arr.add(a[index]);
