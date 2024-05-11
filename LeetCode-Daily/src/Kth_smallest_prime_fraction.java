@@ -11,6 +11,8 @@ class Pair<A, B> {
         this.first = first;
         this.second = second;
     }
+
+
 }
 
 public class Kth_smallest_prime_fraction {
