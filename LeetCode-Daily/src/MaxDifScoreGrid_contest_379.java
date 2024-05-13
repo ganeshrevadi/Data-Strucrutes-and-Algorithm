@@ -32,6 +32,9 @@ public class MaxDifScoreGrid_contest_379 {
 
         }
 
+        List<Integer> arr = new ArrayList<>();
+
+
         return max;
     }
 }
