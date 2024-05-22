@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa" />
+    <list default="true" id="1591c342-5e49-4ef8-b77c-3c9940fd5528" name="Changes" comment="Dsa">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/GenerateAllValidParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/JosephusProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/KthGrammar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/LettterCasePermutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/Main$fat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/N_Queen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/NoofSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/NoofZeros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/Permutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/PermutationII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/PermutationSpaces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/PlaindromePartitioning.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/Pow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/Powersets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/ReverseNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/ReverseStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/SpiralMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/SubSets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/SubStringCombi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/SumOfDIgits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/TowerofHanoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/combinationSumII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/count.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/findAllindexRec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/heightOfTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/magicnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/oneToN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/pratice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/sortArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/sortStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/validPal.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +62,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2QsZrn2ev29YkUAUqyoaJqNPhqE" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -34,29 +74,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rebrunda/IdeaProjects/Data-Strucrutes-and-Algorithm/Recursion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.subSequence.executor": "Run",
+    "Application.subSequenceK.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "19",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rebrunda/IdeaProjects/Data-Strucrutes-and-Algorithm/Recursion"
   }
-}</component>
-  <component name="RunManager" selected="Application.PlaindromePartitioning">
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Permutation" />
-      <module name="code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PermutationII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PermutationII" />
-      <module name="code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.subSequenceK">
     <configuration name="PlaindromePartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PlaindromePartitioning" />
       <module name="code" />
@@ -78,6 +108,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="subSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="subSequence" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="subSequenceK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="subSequenceK" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Recursion" />
       <method v="2">
@@ -93,13 +137,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.subSequenceK" />
+        <item itemvalue="Application.subSequence" />
         <item itemvalue="Application.PlaindromePartitioning" />
         <item itemvalue="Application.SubStringCombi" />
         <item itemvalue="Application.combinationSumII" />
-        <item itemvalue="Application.PermutationII" />
-        <item itemvalue="Application.Permutation" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-249ae16d76d6-36550cda" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

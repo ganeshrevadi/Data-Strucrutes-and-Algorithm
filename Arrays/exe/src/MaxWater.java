@@ -2,6 +2,11 @@ public class MaxWater {
     public static void main(String[] args) {
         int[] height = {1,8,6,2,5,4,8,3,7};
         System.out.println(maxArea(height));
+        int a = 3;
+        int b = 2;
+        int ans = (int)Math.log(Math.pow(10, a) * Math.pow(10, b));
+        System.out.println(ans);
+
     }
 
     public static int maxArea(int[] height) {
