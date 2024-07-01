@@ -7,7 +7,8 @@ public class DFS {
     public static void main(String[] args) {
         String word = "aaaaaaaaaaaaaabb";
         StringBuilder s = new StringBuilder();
-
+        ArrayList<Integer> arr = new ArrayList<>();
+        int[] help = new int[2];
         HashMap<Character, Integer> map = new HashMap<>();
 
 
