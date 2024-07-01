@@ -41,7 +41,6 @@ public class DFS {
 
         for(int it : adj.get(node)){
             if(!vis[it]){
-                 vis[it] = true;
                 Dfs(it, vis, adj, ls);
             }
         }

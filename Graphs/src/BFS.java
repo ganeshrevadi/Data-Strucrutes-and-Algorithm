@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.Queue;
-
+import java.util.*;
 public class BFS {
     public static void main(String[] args) {
 
@@ -31,5 +30,23 @@ public class BFS {
         }
 
         return bfs;
+    }
+
+
+    public List<List<Integer>> printGraph(int V, int edges[][]) {
+        List<List<Integer>> res = new ArrayList<>();
+        for(int i = 0; i < edges.length; i++){
+            res.add(i, new ArrayList<Integer>());
+        }
+
+        for(int i = 0; i < edges.length; i++){
+            for(int j = 0; j < edges[i].length; j++){
+                if(edges[i][j] == 1  && i != j){
+                    res.get(i).add(j);
+                }
+            }
+        }
+
+        return res;
     }
 }
