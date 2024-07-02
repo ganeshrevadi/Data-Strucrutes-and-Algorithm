@@ -40,7 +40,7 @@ public class DFS {
 
 
         for(int it : adj.get(node)){
-            if(!vis[it]){
+            if(adj.get(node).get(it) == 1 && !vis[it]){
                 Dfs(it, vis, adj, ls);
             }
         }
