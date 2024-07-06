@@ -28,4 +28,12 @@ public class FloodFill {
         return ans;
 
     }
+
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Hey");
+        sb.insert(0, "Bro");
+        sb.deleteCharAt(0);
+        System.out.println(sb);
+    }
 }
