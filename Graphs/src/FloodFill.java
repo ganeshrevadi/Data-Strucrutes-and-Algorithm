@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class FloodFill {
 
     public void dfs(int row, int col, int[][] ans, int[][] image, int newColor, int[] delRow, int[] delCol, int inColor){
@@ -34,6 +36,13 @@ public class FloodFill {
         sb.append("Hey");
         sb.insert(0, "Bro");
         sb.deleteCharAt(0);
-        System.out.println(sb);
+        ArrayList<Integer> ls = new ArrayList<>();
+        for(int i = 1; i <= 5; i++){
+            ls.add(i);
+        }
+        ls.remove(0);
+
+        int idx = 0;
+        System.out.println(ls.get(0));
     }
 }
