@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class FloodFill {
 
@@ -43,6 +44,9 @@ public class FloodFill {
         ls.remove(0);
 
         int idx = 0;
-        System.out.println(ls.get(0));
+        String s = "afjhakdjfa";
+
+        System.out.println(4 ^ 3);
+        System.out.println(7 ^ 4);
     }
 }
